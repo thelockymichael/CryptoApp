@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/miningProfitabilityGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="368dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="50dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/powerConsumptionEditText">
+
+        <TextView
+            android:id="@+id/profitPerDayTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corner_left"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per day\n"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/minedTodayTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_middle"
+            android:gravity="end"
+            android:inputType="textMultiLine"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:tag="2"
+            android:text="Mined/day \n"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/powerCostDayTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_right"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per day\n $1.18\n Pool Fee $0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profitPerWeekTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corner_left"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per year\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/minedThisWeekTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_middle"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:tag="5"
+            android:text="Mined/week"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/powerCostWeekTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_right"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per day\n $1.18\n Pool Fee $0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profitPerMonthTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corner_left"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per year\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/minedThisMonthTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_middle"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:tag="8"
+            android:text="Mined/month"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/powerCostMonthTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_right"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per day\n $1.18\n Pool Fee $0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profitPerYearTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_corner_left"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per year\n"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/minedThisYearTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_middle"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:tag="8"
+            android:text="Mined/year"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/powerCostYearTextView"
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:background="@drawable/rounded_corner_right"
+            android:gravity="end"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:text="Profit per day\n $1.18\n Pool Fee $0"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Hashing Power"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="Cost per kWh ($)"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Power consumption"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hashingPowerEditText" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Pool Fee (%)"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView31"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/hashingPowerEditText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_edittext_box"
+        android:ems="10"
+        android:hint="HashingPower"
+        android:inputType="number|numberDecimal"
+        android:maxLength="10"
+        android:text="10"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <EditText
+        android:id="@+id/costPowerKwhEditText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/rounded_edittext_box"
+        android:ems="10"
+        android:hint="HashingPower"
+        android:inputType="number|numberDecimal"
+        android:maxLength="10"
+        android:text="10"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/hashingPowerEditText"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/powerConsumptionEditText"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_edittext_box"
+        android:ems="10"
+        android:hint="HashingPower"
+        android:inputType="number|numberDecimal"
+        android:maxLength="10"
+        android:phoneNumber="false"
+        android:text="10"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <EditText
+        android:id="@+id/poolFeeEditText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/rounded_edittext_box"
+        android:ems="10"
+        android:hint="HashingPower"
+        android:inputType="number|numberDecimal"
+        android:maxLength="10"
+        android:text="10"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/powerConsumptionEditText"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/hashesPerSecondDropDownMenu"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="73dp"
+        app:layout_constraintStart_toEndOf="@+id/hashingPowerEditText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

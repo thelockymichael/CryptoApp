@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_prices_home"
+        android:icon="@drawable/ic_crypto_prices"
+        android:title="Prices" />
+    <item
+        android:id="@+id/nav_converter_middle"
+        android:icon="@drawable/ic_crypto_converter"
+        android:title="Converter" />
+    <item
+        android:id="@+id/nav_mining_right"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/app_name" />
+</menu>

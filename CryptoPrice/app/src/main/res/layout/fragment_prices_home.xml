@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="56dp"
+                app:layout_constraintBottom_toBottomOf="parent">
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/BTC_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="BTC PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/bitcoinPriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/ETH_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+
+                        android:text="ETH PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/ethereumPriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/RIPPLE_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="RIPPLE PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/ripplePriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/BCH_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="BCH PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/bitcoinCashPriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/EOS_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="EOS PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/eosPriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/LTC_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="LTC PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/liteCoinPriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/STELLAR_PRICE_TITLE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="XLM PRICE"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/stellarPriceEurTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:text="8 000 €"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>
