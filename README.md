@@ -2,11 +2,11 @@
 I'm going to introduce you to the three main Fragment Activities
 
 ## Prices
-![prices](images/prices.png)
+
 <p align="center">
-  <img src = "images/prices.png" alt="prices" />
-  </p>
+  <img src="images/prices.png" alt="Size Limit CLI" width="738">
+</p>
 ## Converter
-![converter](images/converter.png)
+
 ## Mining profitability
-![mining_profitability](images/profitability.png)
+
