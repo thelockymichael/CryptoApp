@@ -5,7 +5,7 @@ Here are the three main Fragment Activities.
 Here you can refresh and view prices of various cryptocurrencies.
 
 <p align="center">
-  <img src="images/prices.png" alt="Size Limit CLI" width="300">
+  <img src="images/prices.png" alt="Prices" width="300">
 </p>
 
 ## Converter
@@ -13,7 +13,7 @@ Here you can refresh and view prices of various cryptocurrencies.
 Choose the cryptocurrency you want to convert and switch to the corresponding side.
 
 <p align="center">
-  <img src="images/prices.png" alt="Size Limit CLI" width="300">
+  <img src="images/converter.png" alt="Converter" width="300">
 </p>
 
 ## Mining profitability
@@ -21,6 +21,6 @@ Choose the cryptocurrency you want to convert and switch to the corresponding si
 Calculate your Bitcoin mining profitability by inserting the data and choosing hashrate multiplier from the dropdown menu.
 
 <p align="center">
-  <img src="images/prices.png" alt="Size Limit CLI" width="300">
+  <img src="images/profitability.png" alt="Profitability" width="300">
 </p>
 
