@@ -1,5 +1,5 @@
 # CryptoApp
-I'm going to introduce you to the three main Fragment Activities
+Here are the three main Fragment Activities.
 
 ## Prices
 Here you can refresh and view prices of various cryptocurrencies.
